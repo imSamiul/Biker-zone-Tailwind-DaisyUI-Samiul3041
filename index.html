@@ -684,14 +684,14 @@
     </main>
 
     <footer
-      class="footer px-[165px] py-14 bg-[#0B0D17] text-white mt-32 justify-between grid-cols-2 grid-flow-row"
+      class="footer px-4 py-20 md:px-[165px] md:py-14 bg-[#0B0D17] text-white mt-32 justify-between grid-cols-1 md:grid-cols-2 grid-flow-row"
     >
       <div class="text-base font-normal leading-6">
         <div class="mb-3 flex gap-6">
           <p>Download Now</p>
           <p>License</p>
         </div>
-        <div class="mb-6 flex gap-6">
+        <div class="mb-6 flex gap-6 flex-wrap">
           <p>About</p>
           <p>Features</p>
           <p>Pricing</p>
@@ -700,7 +700,7 @@
           <p>Privacy Policy</p>
         </div>
       </div>
-      <div class="justify-self-end">
+      <div class="md:justify-self-end">
         <h6 class="footer-title text-[#D9DBE1] text-lg font-medium leading-7">
           Get the App
         </h6>
@@ -709,7 +709,9 @@
           <img src="./images/others/ios.png" alt="ios" class="w-32" />
         </div>
       </div>
-      <div class="text-[#D9DBE1] text-sm leading-6">
+      <div
+        class="text-[#D9DBE1] text-sm leading-6 justify-self-center md:justify-self-start"
+      >
         © 2020 bike. All rights reserved
       </div>
     </footer>
